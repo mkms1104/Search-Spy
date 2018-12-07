@@ -1,6 +1,6 @@
 # 간첩을 찾아라!
 ---
-![간첩을 찾아라](https://youtu.be/GoBE7Rcq_ks)
+![](https://youtu.be/GoBE7Rcq_ks)
  
 # 지원
 ---
