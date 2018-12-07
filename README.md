@@ -38,7 +38,7 @@
 - javascript SDK를 이용한 카카오 링크 API를 통해 잡은 간첩들의 이름을 메신저로 전송하는 기능 구현.
 - 다음 지도 API와 서울시 좌표기반 근접 지하철역 정보 API를 통해 역 근처 간첩 위치 조회 서비스 구현.
 
-### ajax 통신을 통한 정보 가져오기
+### * Ajax 통신을 통한 좌표 가져오기
 ~~~javascript
 // 간첩 위치 서비스를 위한 ajax 통신 코드
 $('#search').on('click', function() {
@@ -73,7 +73,7 @@ getLocation(){
 	});
 }
 ~~~
-### 지하철역 정보 JSON 
+### * 지하철역 정보 JSON 
 ~~~JSON
 "DATA": [{
 	"line_num": "8",
