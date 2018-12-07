@@ -10,6 +10,11 @@ https://youtu.be/GoBE7Rcq_ks
 # 참여 인원
 - 5명
 
+# 개인 역할
+- javascript SDK를 이용한 카카오 로그인 API를 통해 로그인 구현.
+- 다음 지도 API와 서울시 좌표기반 근접 지하철역 정보 API를 통해 역 근처 간첩 위치 조회 서비스 구현.
+- javascript SDK를 이용한 카카오 링크 API를 통해 잡은 간첩들의 이름을 메신저로 전송하는 기능 구현.
+
 # 지원
 ---
 - Chrome Extension
