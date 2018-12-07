@@ -38,28 +38,35 @@
 - javascript SDK를 이용한 카카오 링크 API를 통해 잡은 간첩들의 이름을 메신저로 전송하는 기능 구현.
 - 다음 지도 API와 서울시 좌표기반 근접 지하철역 정보 API를 통해 역 근처 간첩 위치 조회 서비스 구현.
 ~~~
-$('#search').on('click', function() { // 전송 버튼 클릭 시
-			var code = '';
-			var name = $('#name').val(); // 입력한 역 이름
+$('#search').on('click', function() {
+	var code = '';
+	var name = $('#name').val(); // 입력한 역 이름
 	
-			$('#stNameTx').html('<span style="color:red">검색 중입니다...</span>');
+	$('#stNameTx').html('<span style="color:red">검색 중입니다...</span>');
 	
-			$.getJSON('json/station.json', function(data) {
-				for (var i = 0; i < data.DATA.length; i++) {
-	
-					// 입력한 역 이름과 JSON 객체에 저장된 역 이름을 비교하여 일치할 경우 역 코드 리턴
-					if (data.DATA[i].station_nm == name) {
-						code = data.DATA[i].station_cd;
-					}
+	$.ajax({
+		url: 'json/station.json', // 서울시 지하철 역 좌표 가져오기.
+		dataType: 'json',
+				
+		success: function(data){
+			for (var i = 0; i < data.DATA.length; i++) {
+						
+				// 입력한 역 이름과 JSON 객체에 저장된 역 이름을 비교하여 일치할 경우 역 코드 리턴
+				if (data.DATA[i].station_nm == name) {
+					code = data.DATA[i].station_cd;
 				}
-			});
-	
-			// 많은 양의 JSON 객체를 불러올 때 지연되는 시간으로 인해 다음 코드에서 사용할 code 변수에 값이 저장되지 않는다.
-			// 이를 해결하기 위해 처리 시간을 위한 타이머를 두고 그 이후 아래 코드를 실행한다.
-			setTimeout(function() {
-				ajaxCode(code);
-			}, 1000)
-	
-		});
+			}
+			getLocation(code); // 얻은 역 코드를 통해 
+		}
+	});
+});
+getLocation(){
+	$.ajax({
+		url : 'http://openAPI.seoul.go.kr:8088/486a7359726d6b6d313135497051644c/xml/SearchLocationOfSTNByIDService/1/5/' + code,
+		success : function(data) {
+			// 생략
+		}
+	});
+}
 ~~~
 
