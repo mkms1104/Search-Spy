@@ -72,19 +72,17 @@ getLocation(){
 }
 ~~~
 <br></br>
-~~~json
-"DATA": [
-	{
-		"line_num": "8",
-		"cyber_st_code": "2818",
-		"xpoint_wgs": "37.492522",
-		"ypoint": "1108579",
-		"ypoint_wgs": "127.118234",	
-		"xpoint": "525992",
-		"station_cd": "2818",
-		"station_nm": "가락시장",
-		"fr_code": "817"
-	},	
-]
+~~~JSON
+"DATA": [{
+	"line_num": "8",
+	"cyber_st_code": "2818",
+	"xpoint_wgs": "37.492522",
+	"ypoint": "1108579",
+	"ypoint_wgs": "127.118234",	
+	"xpoint": "525992",
+	"station_cd": "2818",
+	"station_nm": "가락시장",
+	"fr_code": "817"
+}]
 ~~~
 
