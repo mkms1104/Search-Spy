@@ -20,7 +20,7 @@
 - KakaoLogin API
 - KakaoLink API
 - 서울시 좌표기반 근접 지하철역 정보 API 
-- 서울시 자전거 대여서 좌표 정보 API
+- 서울시 자전거 대여 좌표 정보 API
 <br></br>
 # 사용 언어
 ---
