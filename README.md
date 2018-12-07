@@ -20,6 +20,7 @@
 - KakaoLogin API
 - KakaoLink API
 - 서울시 좌표기반 근접 지하철역 정보 API 
+- 서울시 자전거 대여서 좌표 정보 API
 
 # 사용 언어
 ---
@@ -29,6 +30,7 @@
 # 환경
 ---
 - Eclipse version: Photon Release (4.8.0)
+- Aws EC2 Server
 
 # 개인 역할
 ---
