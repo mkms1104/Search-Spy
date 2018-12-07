@@ -1,7 +1,6 @@
 # 간첩을 찾아라!
 ---
-<iframe width="640" height="360" src="https://youtu.be/GoBE7Rcq_ks"  
- frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/GoBE7Rcq_ks) 
  
 # 지원
 ---
