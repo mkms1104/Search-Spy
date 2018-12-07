@@ -63,7 +63,7 @@ $('#search').on('click', function() {
 		}
 	});
 });
-getLocation(){
+getLocation(code){
 	$.ajax({
 		// URL + 파라미터(code)로 요청 ( 코드에 따른 지하철역의 위치와 이름 찾기 )
 		url : 'http://openAPI.seoul.go.kr:8088/486a7359726d6b6d313135497051644c/xml/SearchLocationOfSTNByIDService/1/5/' + code,
