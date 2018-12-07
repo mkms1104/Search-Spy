@@ -24,7 +24,7 @@
 </head>
 <body>
 <div id = "footWrap">
-	<h5 id = "SB"><span>SB_Company</span> Copyright © SB_C. All Rights Reserved.</h5>
+	<h5 id = "SB"><span>SB_Company</span> Copyright ©SB_C. All Rights Reserved.</h5>
 </div>
 </body>
 </html>
