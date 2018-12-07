@@ -1,6 +1,6 @@
 # [팀 프로젝트] 간첩을 찾아라!
 ---
-<img src="https://user-images.githubusercontent.com/19260410/49653295-d1a36a00-fa77-11e8-8a8a-9b1ee6c472b7.PNG" width="500"/>
+<img src="https://user-images.githubusercontent.com/19260410/49653295-d1a36a00-fa77-11e8-8a8a-9b1ee6c472b7.PNG" width="500"></img>
 ## [ [시연 영상 링크](https://youtu.be/GoBE7Rcq_ks) ]
 
 # 설명
