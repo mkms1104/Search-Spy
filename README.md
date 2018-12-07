@@ -74,7 +74,7 @@ getLocation(code){
 }
 ~~~
 ### * 지하철역 정보 JSON 
-~~~JSON
+~~~json
 "DATA": [{
 	"line_num": "8",
 	"cyber_st_code": "2818",
