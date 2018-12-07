@@ -9,11 +9,11 @@
 - KakaoLink API
 - 서울시 좌표기반 근접 지하철역 정보 API 
 
-# 사용언어
+# 사용 언어
 ---
 - Java
 - Javascript
 
 # 환경
 ---
-- Eclipse version
+- Eclipse version: Photon Release (4.8.0)
