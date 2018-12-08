@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/19260410/49681065-3514b280-fadf-11e8-9aba-8378736afaa4.PNG" width="250">
 </div>
 
-## [ [시연 영상 링크](https://youtu.be/GoBE7Rcq_ks) ]
+## [ [시연영상](https://youtu.be/GoBE7Rcq_ks) [직접해보기](http://52.79.242.155/Jindo_Dog/) ]
 ## [ [직접해보기](http://52.79.242.155/Jindo_Dog/) ]
 
 # 설명
