@@ -21,6 +21,7 @@
 ---
 - Chrome Extension
 - Aws EC2 Server
+- Git
 - Daum 지도 Javscript API
 - KakaoLogin API
 - KakaoLink API
@@ -38,6 +39,7 @@
 ---
 - Window OS
 - Eclipse version: Photon Release (4.8.0)
+- Tomcat 8.5
 <br></br>
 
 ## 개인 역할
