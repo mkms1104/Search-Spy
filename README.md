@@ -7,6 +7,7 @@
 </div>
 
 ## [ [시연 영상 링크](https://youtu.be/GoBE7Rcq_ks) ]
+## [ [직접해보기](http://52.79.242.155/Jindo_Dog/) ]
 
 # 설명
 ---
