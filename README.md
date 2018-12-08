@@ -83,7 +83,7 @@ getLocation(code){
 	});
 }
 ~~~
-### * 지하철역 정보 JSON 
+### * 역 정보를 담고 있는 JSON 데이터
 ~~~json
 "DATA": [{
 	"line_num": "8",
