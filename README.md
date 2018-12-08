@@ -1,12 +1,13 @@
 # [팀 프로젝트] 간첩을 찾아라!
 ---
 <div>
-<img src="https://user-images.githubusercontent.com/19260410/49681059-1dd5c500-fadf-11e8-8a76-0fd81a8d99b8.PNG" width="400"></img>
-<img src="https://user-images.githubusercontent.com/19260410/49681065-3514b280-fadf-11e8-9aba-8378736afaa4.PNG" width="400"></img>
-<img src="https://user-images.githubusercontent.com/19260410/49681071-3cd45700-fadf-11e8-8a3b-cbf2c2374d3a.PNG" width="400"></img>
+<img src="https://user-images.githubusercontent.com/19260410/49681059-1dd5c500-fadf-11e8-8a76-0fd81a8d99b8.PNG" width="300">
+<img src="https://user-images.githubusercontent.com/19260410/49681065-3514b280-fadf-11e8-9aba-8378736afaa4.PNG" width="300">
+<img src="https://user-images.githubusercontent.com/19260410/49681071-3cd45700-fadf-11e8-8a3b-cbf2c2374d3a.PNG" width="300">
 </div>
+
 ## [ [시연 영상 링크](https://youtu.be/GoBE7Rcq_ks) ]
-<br></br>
+
 # 설명
 ---
 - 서울시 자전거 대여소 좌표 정보 API를 활용하여 간첩의 위치를 임의로 설정하고 다음 지도 API를 통해 보여준다. 
