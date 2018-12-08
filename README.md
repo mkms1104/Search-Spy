@@ -8,6 +8,7 @@
 
 ## [ [시연영상](https://youtu.be/GoBE7Rcq_ks) ]
 ## [ [직접해보기](http://52.79.242.155/Jindo_Dog/) ]
+<br></br>
 
 ## 설명
 ---
