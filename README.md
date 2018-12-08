@@ -84,7 +84,7 @@ getLocation(code){
 }
 ~~~
 ### * 역 정보를 담고 있는 JSON 데이터
-~~~json
+~~~javascript
 "DATA": [{
 	"line_num": "8",
 	"cyber_st_code": "2818",
