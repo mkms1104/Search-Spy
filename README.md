@@ -49,7 +49,7 @@
 - 다음 지도 API와 서울시 좌표기반 근접 지하철역 정보 API를 통해 역 근처 간첩 위치 조회 서비스 구현.
 
 ### * 간첩 위치 서비스 처리 과정
-#### // 역 코드 찾기 위한 ajax 통신 
+#### 역 코드 찾기 위한 ajax 통신 
 ~~~javascript
 $('#search').on('click', function() {
 	var code = '';
