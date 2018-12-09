@@ -97,4 +97,3 @@ getLocation(code){
 	"fr_code": "817"
 }]
 ~~~
-
